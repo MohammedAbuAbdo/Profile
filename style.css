@@ -1,0 +1,85 @@
+header{
+    display: inline-block;
+    background-color: #213555;
+    width:100%;
+    margin-top: -10px;
+}
+header li{
+    display:inline-block
+}
+header ul{
+    display: inline-block;
+    width:100%;
+    margin-top: 0px;
+}
+#contact{
+    margin-left: 260px;
+    font-size:1.5rem;
+}
+#intro{
+    margin:0;
+    background-color: #3E5879;
+}
+img{
+    margin:20px;
+    margin-right:0;
+    height:200px;
+    border-radius: 20px;
+}
+section[class="skills"]{
+    display: inline-block;
+    margin-left:25%;
+    
+}
+
+ol[class="skillslist"]{
+    width:350px;
+
+}
+ol[class="skillslist"] li{
+    width:150px;
+    display:inline-block;
+    margin:4px;
+    border-radius: 5px;
+    background-color:#F5EFE7;
+    color:#213555;
+    font-size:1.2rem;
+    font-weight: 700;
+    text-align:center;
+}
+#rest {
+    display: flex;  /* Make the sections inside #rest align in a row */
+    justify-content: space-between;  /* Add space between sections */
+    flex-wrap: wrap;  /* Allow sections to wrap to the next row on smaller screens */
+    background: #D8C4B6;
+    padding: 20px;
+}
+
+#rest section {
+    flex: 1;  /* Make all sections take equal width */
+    min-width: 200px;  /* Ensure they don't shrink too much */
+    margin: 10px;
+    background: #F5EFE7;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#rest section p{
+font-size:1.2rem;
+font-weight:600;
+
+}
+#rest section li{
+    font-size:1.2rem;
+    font-weight:600
+}
+footer{
+    margin:-16px 0;
+
+    background-color: #F5EFE7;
+    height: 30px;
+    font-size:1.2rem;
+    font-weight:600;
+    text-align:center
+
+}
